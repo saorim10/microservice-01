@@ -1,0 +1,9 @@
+spring.application.name=hr-worker
+
+#Database configuration
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.data-username=sa
+spring.datasource.dbcp2.password=
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
